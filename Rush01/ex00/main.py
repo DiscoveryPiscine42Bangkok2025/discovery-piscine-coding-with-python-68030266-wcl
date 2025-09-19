@@ -1,13 +1,13 @@
-'''Main file'''
 from checkmate import checkmate
 
 def main():
     board = """\
-....
-.K..
-....
-.R..\
-"""
+...R.
+.....
+..K..
+.....
+....."""
     checkmate(board)
-if __name__ == "__main__":
+
+if name == "main":
     main()
